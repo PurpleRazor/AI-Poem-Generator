@@ -7,31 +7,49 @@
     <title>AI Poet</title>
   </head>
   <body>
-    <header>
-      <h1>AI poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI poem Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input ="text" placeholder="Enter poem topic" />
-        <input type="submit" />
-      </form>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            class="searchFeild"
+            placeholder="Enter poem topic"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="generateButton" />
+        </form>
 
-      <div>poem here</div>
-    </main>
-    <footer>
-      This AI Poet was coded by
-      <a
-        href="https://www.shecodes.io/graduates/102580-jenny-styles"
-        target="_blank"
-        >Jenny Styles</a
-      >, is
-      <a href="https://github.com/PurpleRazor/AI-Poem-Generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-poet.netlify.app/" target="_blank">netlify</a>.
-    </footer>
-    <script src="src/index.js"></script>
+        <div class="aiPoem">
+          And it was at that age ... Poetry arrived in search of me. I don't
+          know, I don't know where it came from, from winter or a river. I don't
+          know how or when, no, they were not voices, they were not words, nor
+          silence, but from a street I was summoned, frm the branches of night,
+          abruptly from others, among violent fires or returning alone, there I
+          was without a face and it touched me.
+        </div>
+      </main>
+      <footer>
+        This AI Poet was coded by
+        <a
+          href="https://www.shecodes.io/graduates/102580-jenny-styles"
+          target="_blank"
+          >Jenny Styles</a
+        >, is
+        <a
+          href="https://github.com/PurpleRazor/AI-Poem-Generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-poet.netlify.app/" target="_blank">netlify</a>.
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>

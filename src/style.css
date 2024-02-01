@@ -1,3 +1,61 @@
+body {
+  background-color: rgb(187, 151, 222);
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
 h1 {
-  font-style: italic;
+  line-height: 1.5;
+  font-size: 50px;
+  text-align: center;
+  padding: 48px 0 0 0;
+}
+
+.searchFeild {
+  line-height: 2;
+  border-radius: 10px;
+  border: none;
+  width: 60%;
+  padding: 10px;
+}
+
+.generateButton {
+  line-height: 2;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: rgb(103, 82, 122);
+  transition: all 200ms ease-in-out;
+}
+
+.generateButton:hover {
+  color: white;
+  background-color: rgb(187, 151, 222);
+}
+
+main {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.aiPoem {
+  padding: 30px;
+  font-family: cursive;
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  font-family: monospace;
+  opacity: 0.8;
+  font-size: 10px;
+  padding: 20px;
 }
