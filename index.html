@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form id="poem-generator-form" action="">
           <input
             type="text"
             class="searchFeild"
@@ -25,14 +26,7 @@
           <input type="submit" class="generateButton" />
         </form>
 
-        <div class="aiPoem">
-          And it was at that age ... Poetry arrived in search of me. I don't
-          know, I don't know where it came from, from winter or a river. I don't
-          know how or when, no, they were not voices, they were not words, nor
-          silence, but from a street I was summoned, frm the branches of night,
-          abruptly from others, among violent fires or returning alone, there I
-          was without a face and it touched me.
-        </div>
+        <div class="aiPoem" id="poem"></div>
       </main>
       <footer>
         This AI Poet was coded by
