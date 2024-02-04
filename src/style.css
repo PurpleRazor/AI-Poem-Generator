@@ -49,8 +49,13 @@ main {
   padding: 30px;
   font-family: cursive;
   max-width: 60%;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
+}
+
+.aiPoem strong {
+  color: rgb(103, 82, 122);
+  font-style: italic;
 }
 
 footer {
